@@ -1,18 +1,29 @@
-.nav-Links{
+.nav-Links {
     width: 40%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     list-style-type: none;
-
+    text-decoration: none;
   }
 
   .nav{
     display: flex;
+    height: 5px;
+    width: 100%;
     justify-content: space-around;
     align-items: center;
     min-height: 10vh;
-    background: #9EC1CE;
+    background: #924722;
     color: white;
+    font-family: "Brush Script MT", cursive;
+    font-size: 48px;
   }
+
+.links-stl{
+    font-family: "Brush Script MT", cursive;
+    text-decoration: none;
+    font-size: 38px;
+}
+
 
