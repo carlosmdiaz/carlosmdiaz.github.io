@@ -1,0 +1,66 @@
+.btn-ig {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 200px;  
+    background-image:url('./Instagram.png');
+    background-repeat:no-repeat;
+}
+
+.btn-fb {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 200px;  
+    background-image:url('./Facebook.png');
+    background-repeat:no-repeat;
+}
+
+.btn-tw {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 200px;  
+    background-image:url('./Twitter.png');
+    background-repeat:no-repeat;
+}
+
+.btn-li {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 200px;  
+    background-image:url('./Linkedin.png');
+    background-repeat:no-repeat;
+}
+
+.btn-gth {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 200px;  
+    background-image:url('./Github.png');
+    background-repeat:no-repeat;
+}
+
+.btn-ytb {
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 200px;  
+    background-image:url('./Youtube.png');
+    background-repeat:no-repeat;
+}
+
