@@ -140,15 +140,8 @@
     font-weight: bold;
     font-size: 68px;
     color: #9B2335;
-    -webkit-text-stroke: 0.01px black
+    -webkit-text-stroke: 0.01px black;
 }
-
-.github{
-    height: 15vmin;
-    pointer-events: none;
-    background-color: blanchedalmond;
-    border-radius:6px;
-  }
 
   .button{
       background-image: url('./Github.png');
