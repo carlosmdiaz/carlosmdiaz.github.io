@@ -4,9 +4,6 @@ import './Style.css';
 
 function Navigation() {
 
-    const stl ={
-        color: 'white'
-    };
 
   return (
 
@@ -14,26 +11,26 @@ function Navigation() {
         <h3>Carlos Diaz</h3>
         <ul className="nav-Links">
             <Link 
-                className="links-stl"
-                style={stl} to='/'>
+                className="links-stl" 
+                to='/'>
                     <li className="link-Container">Home</li>
             </Link>
 
             <Link
                 className="links-stl"
-                style={stl} to='/aboutme'>
+                to='/aboutme'>
                     <li>About Me</li>
             </Link>
 
             <Link 
                 className="links-stl"
-                style={stl} to='/projects'>
+                to='/projects'>
                     <li>Projects</li>
             </Link>
 
             <Link 
                 className="links-stl"
-                style={stl} to='/contactme'>
+                to='/contactme'>
                     <li>Contact Me</li>
             </Link>
         </ul>

@@ -8,22 +8,156 @@
   }
 
   .nav{
+    outline: 5px solid black;
     display: flex;
     height: 5px;
     width: 100%;
     justify-content: space-around;
     align-items: center;
+    background: #9B2335;
+    color: #98B4D4 ;
     min-height: 10vh;
-    background: #924722;
-    color: white;
-    font-family: "Brush Script MT", cursive;
-    font-size: 48px;
+    font-family: "Bauhaus 93", cursive;
+    font-weight: bold;
+    -webkit-text-stroke: 0.1px black;
+    font-size: 54px;
+    box-shadow: 1px 2px 4px grey;
   }
 
 .links-stl{
-    font-family: "Brush Script MT", cursive;
+    font-family: "Bauhaus 93", cursive;
+    font-weight: bold;
     text-decoration: none;
     font-size: 38px;
+    color: #98B4D4;
+    -webkit-text-stroke: 0.1px black
 }
 
+.body-nav{
+    background-image: url(./bodyhome.jpg);
+    background-size: 1700px;
+    background-position: center;
+    background-color: black;
+    display: flex;
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 100%;
+}
 
+.body-about{
+    
+    background-image: url(./bodyaboutme.jpg);
+    background-size: 1700px;
+    background-position: center;
+    background-color: black;
+    display: flex;
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 100%;
+}
+
+.body-contact{
+    background-image: url(./bodycontact.jpg);
+    background-size: 1700px;
+    background-position: center;
+    background-color: black;
+    display: flex;
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 100%;
+}
+
+.body-projects{
+
+    background-image: url(./bodyprojects.jpg);
+    background-size: 1700px;
+    background-position: center;
+    background-color: black;
+    display: flex;
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 100%;
+}
+
+.home-box{
+    background: rgba(204, 204, 204, 0.5);
+    margin: auto;
+    height: 500px;
+    width: 800px;
+    color: #9B2335;
+    font-weight: 900;
+    border-radius: 10%;
+}
+
+.about-box{
+    background: rgba(204, 204, 204, 0.5);
+    margin: auto;
+    height: 830px;
+    width: 1400px;
+    color: #9B2335;
+    font-weight: 900;
+    border-radius: 10%;
+    display:table-row ;
+    align-items: relative;
+    justify-content: center;
+}
+
+.projects-box{
+    background: rgba(204, 204, 204, 0.5);
+    margin: auto;
+    height: 400px;
+    width: 600px;
+    color: #9B2335;
+    font-weight: 900;
+    border-radius: 10%;
+    display: table-row-group;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.quote{
+    font-size: 28px;
+    font-family: "Zapfino", cursive;
+    -webkit-text-stroke: 0.001px black;
+}
+.citation{
+    font-size: 28px;
+    font-family: "Bauhaus 93";
+    font-weight: bold;
+    -webkit-text-stroke: 0.9px black
+}
+
+.bio-text{
+    font-size: 38px;
+    font-family: "Bauhaus 93", cursive;
+    font-weight: bold;
+    color: #9B2335;
+    -webkit-text-stroke: 0.01px black
+}
+
+.bio-head{
+    font-family: "Bauhaus 93", cursive;
+    font-weight: bold;
+    font-size: 68px;
+    color: #9B2335;
+    -webkit-text-stroke: 0.01px black
+}
+
+.github{
+    height: 15vmin;
+    pointer-events: none;
+    background-color: blanchedalmond;
+    border-radius:6px;
+  }
+
+  .button{
+      background-image: url('./Github.png');
+      display: grid;
+      width: 140px;
+      height: 140px;
+      align-items: flex;
+      margin-left: auto;
+      margin-right: auto;
+      background-repeat: no-repeat;
+      
+  }
